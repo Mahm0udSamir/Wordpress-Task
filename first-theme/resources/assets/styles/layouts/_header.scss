@@ -1,0 +1,95 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+/* start uper bar */
+
+.upper-bar {
+  background: #ededed;
+  color: #898989;
+  padding-top: 5px;
+}
+
+.upper-bar .col-sm {
+  display: flex;
+  flex-grow: 1;
+}
+
+.upper-bar .col-sm:last-of-type {
+  justify-content: flex-end;
+}
+
+.upper-bar span {
+  font-size: 13px;
+  margin: 0 4px;
+}
+
+.upper-bar span .fa,
+.upper-bar span .fas {
+  color: #75a826;
+  display: inline-block;
+  padding: 2px 12px;
+}
+
+.upper-bar .text-right ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.upper-bar .text-right ul li {
+  margin: 0 11px;
+}
+
+.upper-bar .text-right ul li i {
+  color: #073f23;
+  cursor: pointer;
+}
+
+/* end uper bar */
+
+/* start navbar */
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+  height: 83px;
+}
+
+.navbar-brand .bg-logo {
+  width: 263px;
+  height: 72px;
+  display: inline-block;
+  background-size: cover;
+  background-image: url('http://localhost/my-bedrock/web/app/themes/first-theme/dist/images/logo.jpg');
+}
+
+.navbar-nav .nav-link .fa-search {
+  font-size: 19px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
+  margin-left: 20px;
+  color: #2b2b2b;
+}
+
+.navbar-light .navbar-nav .nav-link i {
+  font-size: 13px;
+}
+
+.navbar-nav .active > .nav-link {
+  color: #ec1c23 !important;
+}
+
+/* end navbar */
+
+.slider,
+.carousel-itcarousel-inner img {
+  height: 500px;
+  background: red;
+}
+
